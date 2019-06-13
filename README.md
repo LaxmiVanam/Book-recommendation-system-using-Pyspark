@@ -20,5 +20,6 @@ Future enhancements:
 - Invent a new similarity metric that takes number of co-raters into consideration.
 - Take the author of the books into consideration to boost the scores.
 
+This is based on the publivly available Books crossing dataset pulled from :http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 
 Keywords- collaborative filtering,  recommendation systems, pyspark,cache, persist, broadcast variables, cosine similarity
