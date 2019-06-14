@@ -20,6 +20,10 @@ Future enhancements:
 - Invent a new similarity metric that takes number of co-raters into consideration.
 - Take the author of the books into consideration to boost the scores.
 
-This is based on the publivly available Books crossing dataset pulled from :http://www2.informatik.uni-freiburg.de/~cziegler/BX/
+Dataset:
+•BX-Books - Books are identified by their respective ISBN. Invalid ISBNs have already been removed from the dataset. Moreover, some content-based information is obtained from Amazon Web Services. 
+•BX-Book-Ratings - Contains the book rating information. Ratings are either explicit, expressed on a scale from 1-10 (higher values denoting higher appreciation), or implicit, expressed by 0.
+
+This is based on the publicly available Books crossing dataset pulled from :http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 
 Keywords- collaborative filtering,  recommendation systems, pyspark,cache, persist, broadcast variables, cosine similarity
