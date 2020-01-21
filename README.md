@@ -12,7 +12,7 @@ Steps followed are as follows:
 3. It takes items and outputs other items as recommendations sorting by strength of similarity.
 
 Metric used:
-Cosine similarity: Compute how similar two vectors (of ratings) are in order to determine the similarity score between two books.	
+Cosine similarity: Compute how similar two non-zero vectors (of ratings) are in order to determine the similarity score between two books.	
 
 Future enhancements: 
 - Adjust the thresholds for the number of co-raters and the minimum score
