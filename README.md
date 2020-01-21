@@ -16,7 +16,7 @@ Cosine similarity: Compute how similar two non-zero vectors (of ratings) are in 
 
 Future enhancements: 
 - Adjust the thresholds for the number of co-raters and the minimum score
-- The quality of the similarities can be improved with different similaroty metrics (Pearson correlation coeffient/ Jaccard similarity metric etc.)
+- The quality of the similarities can be improved with different similarity metrics (Pearson correlation coeffient/ Jaccard similarity metric etc.)
 - Invent a new similarity metric that takes number of co-raters into consideration.
 - Take the author of the books into consideration to boost the scores.
 
