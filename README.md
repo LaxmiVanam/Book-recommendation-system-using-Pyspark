@@ -2,7 +2,7 @@
 
 The book recommendation system is based on the Item based collaborative filtering technique. The script is written using pyspark on top of Spark's built in cluster manager. It is used to recommend similar books to each other based on the ratings and the strength of the ratings. 
 
-This is based on the concept that "Users who liked this item also liked …”   
+This is based on the concept that "Users who liked this item also liked …”    
 
 Steps followed are as follows:
 
@@ -26,4 +26,4 @@ Dataset:
 
 This is based on the publicly available Books crossing dataset pulled from :http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 
-Keywords- collaborative filtering,  recommendation systems, pyspark,cache, persist, broadcast variables, cosine similarity
+Keywords- collaborative filtering,  recommendation systems, pyspark,cache, persist, broadcast variables, cosine similarity, command line arguments etc.
